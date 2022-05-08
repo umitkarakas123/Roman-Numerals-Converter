@@ -43,7 +43,7 @@ Resources:
         wget https://raw.githubusercontent.com/umitkarakas123/Roman-Numerals-Converter/main/templates/index.html
         wget https://raw.githubusercontent.com/umitkarakas123/Roman-Numerals-Converter/main/templates/result.html
         cd ..
-       python3 app.py
+        python3 app.py
       Tags:
         - Key: Name
           Value: !Sub Web Server of ${AWS::StackName} Stack
